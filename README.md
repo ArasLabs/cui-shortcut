@@ -4,10 +4,10 @@ The CUI Shortcut project demonstrates how to .
 
 ## Project Details
 
-**Built Using:** Aras 11.0 SP9
-**Browsers Tested:** Internet Explorer 11, Firefox 45 ESR, Chrome
+**Built Using:** Aras 11.0 SP12
+**Browsers Tested:** Internet Explorer 11, Firefox 62, Chrome 69
 
-> Though built and tested using Aras 11.0 SP9, this project should function in versions 11.0 SP7 and greater. The CUI tools this project was built on were introduced in 11.0 SP7.
+> Though built and tested using Aras 11.0 SP12. The CUI tools this project was built on were introduced in 11.0 SP7.
 
 ## Installation
 
