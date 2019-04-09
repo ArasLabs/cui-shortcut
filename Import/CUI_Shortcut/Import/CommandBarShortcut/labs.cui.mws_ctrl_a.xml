@@ -1,7 +1,0 @@
-﻿<AML>
- <Item type="CommandBarShortcut" id="300D358ED29C452AB241B2590B5377F7" action="add">
-  <on_click_handler keyed_name="labs_cui_mws_ctrl_a" type="Method">EC4DEEE851DA4FBBB73D46A5C139BAE2</on_click_handler>
-  <shortcut>ctrl+a</shortcut>
-  <name>labs.cui.mws_ctrl_a</name>
- </Item>
-</AML>

@@ -1,0 +1,7 @@
+﻿<AML>
+ <Item type="CommandBarShortcut" id="AD9014DAE6C64410A00132D3B833F93E" action="add">
+  <on_click_handler keyed_name="cui_custom_iwrs_ctrl_shift_c" type="Method">0F15B09A26084C91A68E87BF12B1752B</on_click_handler>
+  <shortcut>ctrl+shift+c</shortcut>
+  <name>labs.aras.cui_custom.iwrs_ctrl_shift_c</name>
+ </Item>
+</AML>

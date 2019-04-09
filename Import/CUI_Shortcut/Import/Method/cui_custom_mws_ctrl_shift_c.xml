@@ -1,0 +1,36 @@
+﻿<AML>
+ <Item type="Method" id="010DA66E7269422584D7FC0B96D2767A" action="add">
+  <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
+  <method_code><![CDATA[if (!aras.utils.isClipboardSupported())
+{
+    aras.AlertError("Clipboard not supported from this context. Please try to open the Item Properties menu.");
+}
+
+var topWindow = aras.getMostTopWindowWithAras(window);
+var workerFrame = topWindow.work;
+if (workerFrame && workerFrame.grid && workerFrame.grid.getSelectedItemIds)
+{
+    var selectedIds = workerFrame.grid.getSelectedItemIds();
+    if (selectedIds.length < 0) 
+    {
+        return;
+    }
+    else if (selectedIds.length == 1) 
+    {
+        topWindow.ArasModules.copyTextToBuffer(selectedIds[0], null);
+        aras.AlertSuccess("Item ID copied to clipboard");
+    }
+    else
+    {
+        if (aras.confirm("Multiple items selected. Do you want to copy the IDs into a comma separated list?"))
+        {
+            topWindow.ArasModules.copyTextToBuffer(selectedIds.join(','), null);
+            aras.AlertSuccess("Item ID copied to clipboard");
+        }
+        return;
+    }
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>cui_custom_mws_ctrl_shift_c</name>
+ </Item>
+</AML>

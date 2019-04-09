@@ -1,0 +1,18 @@
+﻿<AML>
+ <Item type="Method" id="559CED4473CD4B56B7EC7D01DB0BC613" action="add">
+  <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
+  <method_code><![CDATA[// Get the ID of this item and prompt the user to copy it
+var topWnd = aras.getMostTopWindowWithAras();
+if (aras.utils.isClipboardSupported())
+{
+    topWnd.ArasModules.copyTextToBuffer(parent.item.id, null);
+    aras.AlertSuccess("Item ID copied to clipboard");
+}
+else
+{
+    aras.AlertError("Clipboard not supported from this context. Please try to open the Item Properties menu.");
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>cui_custom_iws_ctrl_shift_c</name>
+ </Item>
+</AML>

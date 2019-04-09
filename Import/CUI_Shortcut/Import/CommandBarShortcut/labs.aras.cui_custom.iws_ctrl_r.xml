@@ -1,0 +1,7 @@
+﻿<AML>
+ <Item type="CommandBarShortcut" id="62F80B121BA24915A051F3580CE9B221" action="add">
+  <on_click_handler keyed_name="cui_custom_iws_ctrl_r" type="Method">57AF663193A84210BA298FC5F6262DDF</on_click_handler>
+  <shortcut>ctrl+r</shortcut>
+  <name>labs.aras.cui_custom.iws_ctrl_r</name>
+ </Item>
+</AML>

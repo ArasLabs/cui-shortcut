@@ -1,0 +1,8 @@
+﻿<AML>
+ <Item type="CommandBarShortcut" id="0DB2DBE000054ED38A674A64DD3C7566" action="add">
+  <additional_data>{"preventBlur": true, "preventDefault": false}</additional_data>
+  <on_click_handler keyed_name="cui_custom_iwrs_alt_ctrl_v" type="Method">9143C189BA8049BA94C3BDF5636742ED</on_click_handler>
+  <shortcut>alt+ctrl+v</shortcut>
+  <name>labs.aras.cui_custom.iwrs_alt_ctrl_v</name>
+ </Item>
+</AML>

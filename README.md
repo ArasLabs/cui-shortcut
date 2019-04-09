@@ -1,13 +1,26 @@
 # CUI Shortcut
 
-The CUI Shortcut project demonstrates how to .
+The CUI Shortcut project demonstrates how to add a keyboard shortcut to Aras Innovator.
 
-## Project Details
+## History
 
-**Built Using:** Aras 11.0 SP12
-**Browsers Tested:** Internet Explorer 11, FF52 , Chrome 69
+This project and the following release notes have been migrated from the old Aras Projects page.
 
-> Though built and tested using Aras 11.0 SP12. The CUI tools this project was built on were introduced in 11.0 SP7.
+Release | Notes
+--------|--------
+[v2.0](https://github.com/ArasLabs/cui-shortcut/releases/tag/v2.0) | Added new keyboard shortcuts
+[v1](https://github.com/ArasLabs/cui-shortcut/releases/tag/v1) | Initial Release *
+
+> \* The original shortcut this project demonstrated used Ctrl+A to select all items in a grid. This was added to standard product around 11.0 SP12, so it is not recommended that you use v1.
+
+#### Supported Aras Versions
+
+Project | Aras
+--------|------
+[v2.0](https://github.com/ArasLabs/cui-shortcut/releases/tag/v2.0) | 11.0 SP15
+[v1](https://github.com/ArasLabs/cui-shortcut/releases/tag/v1) | 11.0 SP12, 11.0 SP9
+
+> Though built and tested using Aras 11.0 SP15. The CUI tools this project was built on were introduced in 11.0 SP7.
 
 ## Installation
 
@@ -38,10 +51,28 @@ You are now ready to login to Aras and try out this new CUI Shortcut.
 
 ## Usage
 
-1. Log in to Aras as admin.
-2. Navigate to any ItemType in the TOC that has multiple items in its grid.
-3. Press **Ctrl+a** on your keyboard
-4. See that all of the currently visible rows in the grid are selected
+There are 9 shortcuts added in this project, showing off 3 different shortcut locations.
+
+### Main Window Shortcuts
+
+1. **Ctrl+Shift+C** - Copy the currently selected item's ID into your clipboard
+
+### Item Window Shortcuts
+
+1. **Ctrl+Shift+C** - Copy the current item's ID into your clipboard
+2. **Ctrl+R** - Refresh the current item window from the dom
+3. **Alt+Ctrl+S** - Open up the structure browser of the current item
+4. **Alt+Ctrl+W** - Open up the where used of the current item
+
+### Item Window Relationship Shortcuts
+
+1. **Ctrl+Shift+C** - Copy the currently selected relationship's ID into your clipboard
+2. **Ctrl+C** * - Copy the current relationship using Aras Innovator's clipboard
+3. **Ctrl+V** * - Paste the relationship onto the current item using Aras Innovator's clipboard
+4. **Alt+Ctrl+V** * - Uses a special paste functionality using Aras Innovator's clipboard
+     * This is equivalent to using "Paste Special"
+
+> \* These shortcuts will not interfere with the default copy/paste functionality when you copy data from a cell in the relationship grid
 
 ## Contributing
 
@@ -56,7 +87,6 @@ For more information on contributing to this project, another Aras Labs project,
 ## Credits
 
 Project written, documented, and published by Christopher Gillis at Aras Labs. @csgillis-aras
-
 
 ## License
 

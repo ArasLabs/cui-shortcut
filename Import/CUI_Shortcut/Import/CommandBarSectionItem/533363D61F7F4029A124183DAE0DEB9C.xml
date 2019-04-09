@@ -1,0 +1,16 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="533363D61F7F4029A124183DAE0DEB9C" action="add">
+  <action>Add</action>
+  <related_id keyed_name="labs.aras.cui_custom.iwrs_ctrl_c" type="CommandBarItem">
+   <Item type="CommandBarShortcut" id="FE6B389DAB06493A8BD0A3181293FE8E" action="add">
+    <additional_data>{"preventBlur": true, "preventDefault": false}</additional_data>
+    <on_click_handler keyed_name="cui_custom_iwrs_ctrl_c" type="Method">16CE4D3D9EF04CC49358E192037C15D6</on_click_handler>
+    <shortcut>ctrl+c</shortcut>
+    <name>labs.aras.cui_custom.iwrs_ctrl_c</name>
+   </Item>
+  </related_id>
+  <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+  <sort_order>640</sort_order>
+  <source_id keyed_name="com.aras.innovator.cui_default.ItemWindowRelationshipsShortcuts" type="CommandBarSection">10F057091BA54A2CB48E718F2F814F12</source_id>
+ </Item>
+</AML>

@@ -1,0 +1,7 @@
+﻿<AML>
+ <Item type="CommandBarShortcut" id="A8DF98778A9C4282968B7CCC4D521779" action="add">
+  <on_click_handler keyed_name="cui_custom_iws_ctrl_alt_s" type="Method">4C5822928564456381EF21B9710DF71E</on_click_handler>
+  <shortcut>alt+ctrl+s</shortcut>
+  <name>labs.aras.cui_custom.alt_ctrl_s</name>
+ </Item>
+</AML>

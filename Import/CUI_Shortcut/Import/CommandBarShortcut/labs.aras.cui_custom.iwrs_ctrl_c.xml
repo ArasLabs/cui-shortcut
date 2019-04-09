@@ -1,0 +1,8 @@
+﻿<AML>
+ <Item type="CommandBarShortcut" id="FE6B389DAB06493A8BD0A3181293FE8E" action="add">
+  <additional_data>{"preventBlur": true, "preventDefault": false}</additional_data>
+  <on_click_handler keyed_name="cui_custom_iwrs_ctrl_c" type="Method">8DB5E53250C74E93A1314AB5BF8FE84A</on_click_handler>
+  <shortcut>ctrl+c</shortcut>
+  <name>labs.aras.cui_custom.iwrs_ctrl_c</name>
+ </Item>
+</AML>
