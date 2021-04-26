@@ -4,7 +4,11 @@
   <related_id keyed_name="labs.aras.cui_custom.mws_ctrl_shift_c" type="CommandBarItem">
    <Item type="CommandBarShortcut" id="F66E96F855F04B94A8741C8F1C8F4740" action="add">
     <additional_data />
-    <on_click_handler keyed_name="cui_custom_mws_ctrl_shift_c" type="Method">9BA099F54C7846A48B9240324DD0CE58</on_click_handler>
+    <on_click_handler>
+     <Item type="Method" action="get">
+      <keyed_name>cui_custom_mws_ctrl_shift_c</keyed_name>
+     </Item>
+    </on_click_handler>
     <shortcut>ctrl+shift+c</shortcut>
     <name>labs.aras.cui_custom.mws_ctrl_shift_c</name>
    </Item>

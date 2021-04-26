@@ -1,6 +1,10 @@
 ﻿<AML>
  <Item type="CommandBarShortcut" id="992AE91A9D3B4CB2B038C4783858A7D2" action="add">
-  <on_click_handler keyed_name="cui_custom_iws_ctrl_alt_w" type="Method">19C7F57B9E4D4CF28EBBFCFFE7105E73</on_click_handler>
+  <on_click_handler>
+   <Item type="Method" action="get">
+    <keyed_name>cui_custom_iws_ctrl_alt_w</keyed_name>
+   </Item>
+  </on_click_handler>
   <shortcut>alt+ctrl+w</shortcut>
   <name>labs.aras.cui_custom.alt_ctrl_w</name>
  </Item>

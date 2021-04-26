@@ -4,7 +4,11 @@
   <related_id keyed_name="labs.aras.cui_custom.iwrs_ctrl_v" type="CommandBarItem">
    <Item type="CommandBarShortcut" id="28B1BAA39515477DA8E967E94D9C8A0E" action="add">
     <additional_data>{"preventBlur": true, "preventDefault": false}</additional_data>
-    <on_click_handler keyed_name="cui_custom_iwrs_ctrl_v" type="Method">CAE1792D42C04AEF944DB0FECD8806D3</on_click_handler>
+    <on_click_handler>
+     <Item type="Method" action="get">
+      <keyed_name>cui_custom_iwrs_ctrl_v</keyed_name>
+     </Item>
+    </on_click_handler>
     <shortcut>ctrl+v</shortcut>
     <name>labs.aras.cui_custom.iwrs_ctrl_v</name>
    </Item>

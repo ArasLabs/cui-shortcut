@@ -8,6 +8,7 @@ This project and the following release notes have been migrated from the old Ara
 
 Release | Notes
 --------|--------
+[v2.1](https://github.com/ArasLabs/cui-shortcut/releases/tag/v2.1) | Bug fixes
 [v2.0](https://github.com/ArasLabs/cui-shortcut/releases/tag/v2.0) | Added new keyboard shortcuts
 [v1](https://github.com/ArasLabs/cui-shortcut/releases/tag/v1) | Initial Release *
 
@@ -17,10 +18,11 @@ Release | Notes
 
 Project | Aras
 --------|------
+[v2.1](https://github.com/ArasLabs/cui-shortcut/releases/tag/v2.1) | 12.0 SP14
 [v2.0](https://github.com/ArasLabs/cui-shortcut/releases/tag/v2.0) | 11.0 SP15
 [v1](https://github.com/ArasLabs/cui-shortcut/releases/tag/v1) | 11.0 SP12, 11.0 SP9
 
-> Though built and tested using Aras 11.0 SP15. The CUI tools this project was built on were introduced in 11.0 SP7.
+> Though tested using Aras 12.0 SP14, this should support any version of 12.0
 
 ## Installation
 
@@ -29,7 +31,7 @@ Project | Aras
 
 ### Pre-requisites
 
-1. Aras Innovator installed (version 11.0 SPx preferred)
+1. Aras Innovator installed (version 12.0 SPx preferred)
 2. Aras Package Import tool
 3. CUI Shortcut import package
 

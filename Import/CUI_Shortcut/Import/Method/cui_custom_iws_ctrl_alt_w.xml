@@ -4,7 +4,7 @@
   <method_code><![CDATA[var topWnd = aras.getMostTopWindowWithAras();
 
 // Launch the Structure Browser
-topWnd.Dependencies.View(parent.item.getAttribute("type"), parent.item.id, true, aras, false);]]></method_code>
+topWnd.Dependencies.view(parent.item.getAttribute("type"), parent.item.id, true, aras, false);]]></method_code>
   <method_type>JavaScript</method_type>
   <name>cui_custom_iws_ctrl_alt_w</name>
  </Item>

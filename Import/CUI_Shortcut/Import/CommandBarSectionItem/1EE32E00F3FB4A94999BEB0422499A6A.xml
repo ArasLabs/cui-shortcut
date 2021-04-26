@@ -3,7 +3,11 @@
   <action>Add</action>
   <related_id keyed_name="labs.aras.cui_custom.iwrs_ctrl_shift_c" type="CommandBarItem">
    <Item type="CommandBarShortcut" id="AD9014DAE6C64410A00132D3B833F93E" action="add">
-    <on_click_handler keyed_name="cui_custom_iwrs_ctrl_shift_c" type="Method">487BC674C8D9489091E7A9EC6A805588</on_click_handler>
+    <on_click_handler>
+     <Item type="Method" action="get">
+      <name>cui_custom_iwrs_ctrl_shift_c</name>
+     </Item>
+    </on_click_handler>
     <shortcut>ctrl+shift+c</shortcut>
     <name>labs.aras.cui_custom.iwrs_ctrl_shift_c</name>
    </Item>
