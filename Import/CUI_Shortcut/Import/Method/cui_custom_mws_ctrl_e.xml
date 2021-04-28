@@ -1,0 +1,18 @@
+﻿<AML>
+ <Item type="Method" id="428E4ED86E0D4B06A3C32C90B83EA682" action="add">
+  <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
+  <method_code><![CDATA[const selectedIds = window.grid.getSelectedItemIds();
+if (!selectedIds.length) {
+	return;
+}
+var topWnd = aras.getMostTopWindowWithAras();
+
+aras.uiShowItem(options.itemTypeName, selectedIds[0]).then(function(){
+        var myItemWin = aras.uiFindWindowEx(selectedIds[0], null);
+        myItemWin.onEditCommand();
+});
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>cui_custom_mws_ctrl_e</name>
+ </Item>
+</AML>
