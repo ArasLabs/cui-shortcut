@@ -1,0 +1,11 @@
+﻿<AML>
+ <Item type="CommandBarShortcut" id="B46F20B0F0B44DBF9B8112865063A19A" action="add">
+  <on_click_handler>
+   <Item type="Method" action="get">
+    <keyed_name>cui_custom_mws_ctrl_e</keyed_name>
+   </Item>
+  </on_click_handler>
+  <shortcut>ctrl+e</shortcut>
+  <name>labs.aras.cui_custom.mws_ctrl_e</name>
+ </Item>
+</AML>

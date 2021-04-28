@@ -1,4 +1,4 @@
-﻿<AML>
+<AML>
  <Item type="CommandBarSectionItem" id="9AFD36BEC1914006839DAA7940A6CE98" action="add">
   <action>Add</action>
   <related_id keyed_name="labs.aras.cui_custom.mws_ctrl_shift_c" type="CommandBarItem">
@@ -15,6 +15,6 @@
   </related_id>
   <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
   <sort_order>640</sort_order>
-  <source_id keyed_name="com.aras.innovator.cui_default.mainWindowShortcuts" type="CommandBarSection">94A067E55B014B57A9E959DF66AC6F4D</source_id>
+  <source_id keyed_name="com.aras.innovator.cui_default.searchViewShortcuts" type="CommandBarSection">94A067E55B014B57A9E959DF66AC6F4D</source_id>
  </Item>
 </AML>

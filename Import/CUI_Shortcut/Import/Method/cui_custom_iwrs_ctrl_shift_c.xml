@@ -6,7 +6,7 @@ if (!aras.utils.isClipboardSupported())
 {
     aras.AlertError("Clipboard not supported from this context. Please try to open the Item Properties menu.");
 }
-
+var topWindow = aras.getMostTopWindowWithAras(window);
 var selectedIds = this.grid.getSelectedItemIds();
 if (selectedIds.length < 0) 
 {
